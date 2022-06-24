@@ -1,0 +1,27 @@
+args:
+  n: 1000
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+  - cases: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    score: 100
+folder: problem
+memory limit: 512 MiB
+name: Sevens
+partial score: false
+samples: 
+  - cases: [1, 2, 3]
+time limit: 1.0
+title:
+  zh-cn: 简单的卡牌游戏
+type: program
+users: 
+  chj:
+    std: {expected: == 100, path: ShinyRacers/std.cpp}
+  zyb:
+    std: {expected: == 100, path: zyb/sevens.cpp}
+version: 2

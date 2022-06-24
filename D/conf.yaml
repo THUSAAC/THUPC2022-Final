@@ -1,0 +1,25 @@
+args:
+  n: 1000
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data: 
+  - cases: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    score: 100
+folder: problem
+memory limit: 512 MiB
+name: hpc
+partial score: false
+samples: 
+  - cases: [1, 2, 3]
+time limit: 2.0
+title:
+  zh-cn: 高性能计算导论集群登录密码复杂性策略
+type: program
+users: 
+  chj:
+    std: {expected: == 100, path: ShinyRacers/std.cpp}
+version: 2

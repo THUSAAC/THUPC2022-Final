@@ -1,0 +1,26 @@
+args:
+  n: 1000
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- cases: [1,2,3,4,5]
+  score: 100
+folder: problem
+memory limit: 2 GiB
+name: F
+partial score: false
+pre: []
+samples: []
+time limit: 6.0
+title:
+  zh-cn: riapq
+type: program
+users:
+  std:
+    std: {expected: == 100, path: std/std.cpp}
+    bf: {expected: == 0, path: std/bf.cpp}
+version: 2
